@@ -1,0 +1,9 @@
+.DS_store
+node_modules/
+coverage/
+dist/
+*.log
+*.iml
+.vscode
+.idea
+package-lock.json

@@ -1,0 +1,39 @@
+{
+  "name": "cct-cli",
+  "version": "1.0.0",
+  "description": "🚀 CLI for fast create custom templates",
+  "bin": {
+    "cct": "bin/cct.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-cli.git",
+    "directory": "packages/@vue/cli"
+  },
+  "keywords": [
+    "cct",
+    "cli"
+  ],
+  "author": "Mica Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuejs/vue-cli/issues"
+  },
+  "homepage": "https://cli.vuejs.org/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0",
+    "rimraf": "^2.6.3",
+    "semver": "^5.6.0",
+    "shelljs": "^0.8.3"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
